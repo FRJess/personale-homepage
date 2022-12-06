@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Home",
+    "href": "index.php",
+    "public": true
+  },
+  {
+    "name": "Chi siamo",
+    "href": "chi-siamo.php",
+    "public": true
+  },
+  {
+    "name": "Contatti",
+    "href": "contatti.php",
+    "public": true
+  },
+  {
+    "name": "Login",
+    "href": "login.php",
+    "public": true
+  },
+  {
+    "name": "Pagina utente",
+    "href": "pagina-utente.php",
+    "public": false
+  },
+  {
+    "name": "Logout",
+    "href": "logout.php",
+    "public": false
+  }
+]
