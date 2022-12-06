@@ -20,12 +20,6 @@
     include_once './partial/footer.php';
   ?>
 
-
-
-
-
-  <!-- JS -->
-  <script src="js/script.js"></script>
 </body>
 <!-- Fine Body -->
 

@@ -18,18 +18,13 @@
       <h1>Ciao <?php echo $_SESSION['userLogged']['name'] ?></h1>
       <h4>Indirizzo: <?php echo $_SESSION['userLogged']['indirizzo']?></h4>
     </div>
+
   </main>
 
   <?php
     include_once './partial/footer.php';
   ?>
 
-
-
-
-
-  <!-- JS -->
-  <script src="js/script.js"></script>
 </body>
 <!-- Fine Body -->
 

@@ -29,13 +29,14 @@ $menu = json_decode($string, true);
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <?php foreach ($menu as $link) :  ?>
               <?php if ($link['public'] || (!$link['public'] && $userLogged)) : ?>
-              <li class="nav-item">
-                <a class="nav-link" href="<?php echo $baseUrl ?><?php echo $link['href'] ?>"><?php echo $link['name']?></a>
-              </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="<?php echo $baseUrl ?><?php echo $link['href'] ?>"><?php echo $link['name']?></a>
+                </li>
               <?php endif; ?>
             <?php endforeach; ?>
           </ul>
         </div>
       </div>
     </nav>
+    
   </header>

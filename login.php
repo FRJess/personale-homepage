@@ -40,6 +40,7 @@
   <main>
 
     <div class="container">
+
       <h1>Login</h1>
       <h3><?php echo $errormessage ?></h3>
 
@@ -57,19 +58,13 @@
       </form>
 
     </div>
+
   </main>
 
   <?php
     include_once './partial/footer.php';
   ?>
 
-
-
-
-
-  <!-- JS -->
-  <script src="js/script.js"></script>
-</body>
 <!-- Fine Body -->
 
 </html>
