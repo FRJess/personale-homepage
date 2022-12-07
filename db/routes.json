@@ -15,11 +15,6 @@
     "public": true
   },
   {
-    "name": "Login",
-    "href": "login.php",
-    "public": true
-  },
-  {
     "name": "Pagina utente",
     "href": "pagina-utente.php",
     "public": false

@@ -1,6 +1,7 @@
 <?php
   // var_dump($_POST);
   // var_dump($_SESSION);
+  session_start();
   if (isset($_SESSION['userLogged'])){
     header('Location: pagina-utente.php');
   }

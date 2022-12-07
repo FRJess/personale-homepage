@@ -34,6 +34,11 @@ $menu = json_decode($string, true);
                 </li>
               <?php endif; ?>
             <?php endforeach; ?>
+            <?php if (!$userLogged) : ?>
+              <li class="nav-item">
+                  <a class="nav-link" href="<?php echo $baseUrl ?>login.php">Login</a>
+                </li>
+            <?php endif; ?>
           </ul>
         </div>
       </div>

@@ -1,4 +1,5 @@
 <?php
+  session_start();
   include_once './partial/head.php';
 ?>
 
