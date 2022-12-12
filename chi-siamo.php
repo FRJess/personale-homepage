@@ -7,7 +7,7 @@
 <body>
 
   <?php
-  include_once './partial/header.php';
+  include_once './partial/header.php'
 
   ?>
 
@@ -23,6 +23,6 @@
   ?>
 
 </body>
-<!-- Fine Body -->
+<!-- Fine Body  -->
 
 </html>
